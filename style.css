@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic:wght@800&family=Quicksand:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, p, a {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
+  color: #EFF7F6;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  padding: 0;
+}
+
+.navbar .container-fluid {
+  background-color: #09221f;
+}
+
+.navbar .container-fluid img {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.navbar .container-fluid .navbar-title {
+  margin-right: 3%;
+}
+
+.navbar .container-fluid a {
+  color: #DBD9DB;
+}
+
+.navbar .container-fluid a:hover {
+  color: #2A9D8F;
+}
+
+header {
+  background-image: url(./arbisoftimages-158935-piscina2-961686.jpg);
+  width: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+header .bienvenida-container {
+  margin: auto;
+  width: 70%;
+  padding-top: 15%;
+}
+
+header .bienvenida-container h1 {
+  color: #09221f;
+  font-size: 4em;
+  font-weight: 700;
+  font-family: 'Kanit', sans-serif;
+}
+
+header .bienvenida-container button {
+  border: none;
+  background-color: #1f756b;
+  padding: 10px;
+  width: 200px;
+  font-size: 1.3em;
+  color: #09221f;
+  border-radius: 5px;
+}
+
+header .bienvenida-container button a {
+  text-decoration: none;
+}
+
+header .bienvenida-container button a:hover {
+  color: #EFF7F6;
+}
+
+main {
+  width: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(./Double-Superior-Forest-View-scaled.jpg);
+}
+
+main section {
+  background-color: rgba(0, 0, 0, 0.918);
+}
+
+main section .sobre-nosotros {
+  padding-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main section .sobre-nosotros .info-text {
+  width: 60%;
+  padding: 20px;
+}
+
+main section .sobre-nosotros .info-text h2 {
+  color: #2A9D8F;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 300;
+  margin: 10px;
+}
+
+main section .sobre-nosotros iframe {
+  width: 500px;
+  height: 350px;
+  border-radius: 5px;
+  margin: 7% 10px;
+}
+
+main section .habitacion-flex {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+main section .habitacion-flex .habitacion {
+  position: relative;
+  margin: 1%;
+  padding: 1%;
+  width: 100%;
+}
+
+main section .habitacion-flex .habitacion .text-reserve {
+  display: none;
+  position: absolute;
+  bottom: 70px;
+  padding: 1%;
+  border-radius: 5px;
+  left: 150px;
+  font-size: 1.5em;
+  background-color: #09221f;
+  -webkit-animation: aparicion-text 0.5s;
+          animation: aparicion-text 0.5s;
+}
+
+main section .habitacion-flex .habitacion:hover .text-reserve {
+  display: block;
+}
+
+@-webkit-keyframes aparicion-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes aparicion-text {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+main section .habitacion-flex .habitacion img {
+  width: 100%;
+  max-height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+main section h2 {
+  color: #2A9D8F;
+  font-size: 3em;
+  text-align: center;
+  font-weight: 300;
+  margin: 10px;
+  margin: 4% 0 3% 0;
+}
+/*# sourceMappingURL=style.css.map */
