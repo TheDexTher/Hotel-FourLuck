@@ -13,8 +13,8 @@ h1, h2, h3, p, a {
 .navbar {
   position: -webkit-sticky;
   position: sticky;
-  z-index: 10;
-  top: 0;
+  z-index: 0;
+  top: 0px;
   padding: 0;
 }
 
@@ -29,6 +29,7 @@ h1, h2, h3, p, a {
 
 .navbar .container-fluid .navbar-title {
   margin-right: 3%;
+  font-size: 1.5em;
 }
 
 .navbar .container-fluid a {
@@ -183,5 +184,54 @@ main section h2 {
   font-weight: 300;
   margin: 10px;
   margin: 4% 0 3% 0;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    position: relative;
+  }
+  .navbar .container-fluid .navbar-title {
+    font-size: 1.2em;
+  }
+  header {
+    background-size: cover;
+    height: 80vh;
+  }
+  header .bienvenida-container {
+    width: 90%;
+  }
+  header .bienvenida-container h1 {
+    font-size: 2.5em;
+  }
+  main {
+    background-size: cover;
+  }
+  main section .sobre-nosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section .sobre-nosotros .info-text {
+    width: 95%;
+  }
+  main section .sobre-nosotros .info-text h2 {
+    font-size: 2.5em;
+  }
+  main section .sobre-nosotros iframe {
+    width: 95%;
+  }
+  main section h2 {
+    font-size: 2em;
+  }
+  main section .habitacion-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */

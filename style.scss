@@ -44,8 +44,8 @@ h1,h2,h3,p,a{
 
 .navbar{
     position: sticky;
-    z-index: 10;
-    top: 0;
+    z-index: 0;
+    top: 0px;
     padding: 0;
 
     .container-fluid{
@@ -56,6 +56,7 @@ h1,h2,h3,p,a{
         }
         .navbar-title{
             margin-right: 3%;
+            font-size: 1.5em;
         }
         a{
             color: $grey;
@@ -185,3 +186,54 @@ main{
 }
 
 
+//media querys
+
+@media (max-width: 768px) {
+    //nav
+    .navbar{
+        position: relative;
+        .container-fluid{
+            .navbar-title{
+                font-size: 1.2em;
+            }
+        }
+    }
+
+    //header
+    header{
+        background-size: cover;
+        height: 80vh;
+        .bienvenida-container{
+            width: 90%;
+            h1{
+                font-size: 2.5em;
+            }
+        }
+    }
+    //main
+    main{
+        background-size: cover;
+        section{
+            .sobre-nosotros{
+                display: flex;
+                flex-direction: column;
+                .info-text{
+                    width: 95%;
+                    h2{
+                        font-size: 2.5em;
+                    }
+                }
+                iframe{
+                    width: 95%;
+                }
+            }
+            h2{
+                font-size: 2em;
+            }
+            .habitacion-flex{
+                flex-direction: column;
+            }
+        }
+    }
+
+}
