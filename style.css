@@ -13,7 +13,7 @@ h1, h2, h3, p, a {
 .navbar {
   position: -webkit-sticky;
   position: sticky;
-  z-index: 0;
+  z-index: 10;
   top: 0px;
   padding: 0;
 }
@@ -186,6 +186,15 @@ main section h2 {
   margin: 4% 0 3% 0;
 }
 
+main section .card {
+  background-color: #09221f;
+}
+
+main section .card .card-body {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 @media (max-width: 768px) {
   .navbar {
     position: relative;
@@ -232,6 +241,15 @@ main section h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  main section .contacto .card-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main section .contacto .card-body .card-text {
+    border-bottom: 2px solid #09221f;
   }
 }
 /*# sourceMappingURL=style.css.map */
