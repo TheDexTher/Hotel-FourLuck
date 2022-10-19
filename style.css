@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nanum+Gothic:wght@800&family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   margin: 0;
   padding: 0;
 }
 
 h1, h2, h3, p, a {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 200;
   color: #EFF7F6;
 }
@@ -19,7 +19,7 @@ h1, h2, h3, p, a {
 }
 
 .navbar .container-fluid {
-  background-color: #09221f;
+  background-color: #887640;
 }
 
 .navbar .container-fluid img {
@@ -56,15 +56,15 @@ header .bienvenida-container {
 }
 
 header .bienvenida-container h1 {
-  color: #09221f;
+  color: #3b341c;
   font-size: 4em;
   font-weight: 700;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 header .bienvenida-container button {
   border: none;
-  background-color: #1f756b;
+  background-color: #887640;
   padding: 10px;
   width: 200px;
   font-size: 1.3em;
@@ -105,7 +105,7 @@ main section .sobre-nosotros .info-text {
 }
 
 main section .sobre-nosotros .info-text h2 {
-  color: #2A9D8F;
+  color: #887640;
   font-size: 3em;
   text-align: center;
   font-weight: 300;
@@ -142,7 +142,7 @@ main section .habitacion-flex .habitacion .text-reserve {
   border-radius: 5px;
   left: 150px;
   font-size: 1.5em;
-  background-color: #09221f;
+  background-color: #887640;
   -webkit-animation: aparicion-text 0.5s;
           animation: aparicion-text 0.5s;
 }
@@ -178,7 +178,7 @@ main section .habitacion-flex .habitacion img {
 }
 
 main section h2 {
-  color: #2A9D8F;
+  color: #887640;
   font-size: 3em;
   text-align: center;
   font-weight: 300;
@@ -187,7 +187,7 @@ main section h2 {
 }
 
 main section .card {
-  background-color: #09221f;
+  background-color: #887640;
 }
 
 main section .card .card-body {
@@ -249,7 +249,7 @@ main section .card .card-body {
             flex-direction: column;
   }
   main section .contacto .card-body .card-text {
-    border-bottom: 2px solid #09221f;
+    border-bottom: 2px solid #887640;
   }
 }
 /*# sourceMappingURL=style.css.map */
